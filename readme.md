@@ -1,7 +1,7 @@
 ## Object Detection Sample Code:
 
 This implementation is based on the ``SSD`` architecture as described [here](https://arxiv.org/abs/1512.02325)
-Since in case of object detection model should be able to localizing the object along with recognizing it ,so the deepest features maps which are semantically strong but with poor resolution are not enough to localize the objects with high accuracy due to loss of the localizing information as we go deeper.
+Since in case of object detection model should be able to localize the object along with recognizing it ,so the deepest features maps which are semantically strong but with poor resolution are not enough to localize the objects with high accuracy due to loss of the localizing information as we go deeper.
 So ``SSD`` uses shallower features maps along with deeper feature maps for predicting the object location.
 4-5 feature maps are used .
 
