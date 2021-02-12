@@ -18,5 +18,5 @@ We decide the base size and ratios for anchor empirically.
 ### classification loss:
 Since for each anchor a class has to be predicted so we resort to categorical based cross-entropy loss.Also since lot of anchors would be belonging to the ``background-class`` this creates an unbalanced class distribution,which should be handled using techniques like ``hard-negative mining`` or ``focal-loss``.
 
-### Regeression Loss:
+### Regression Loss:
 We calculate regression (MSE) loss for only positive anchors,positive anchors are those which have IOU with ground-truth boxes greater than a threshold.For each ground truth bbox ,we would have atleast one anchor associated.
